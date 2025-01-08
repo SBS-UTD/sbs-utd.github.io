@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio with Fullscreen Background Slideshow">
+    <title>Nilanjan's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <nav class="main-nav">
+            <div class="logo">
+                <img src="SBS_logo_full.png" alt="Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#programs">PROGRAMS</a>
+                <a href="https://www.instagram.com/sbs.utd">GET INVOLVED</a>
+                <a href="https://maps.app.goo.gl/adsQfFMnPQ6q4BBv6">LOCATIONS</a>
+                <a href="https://www.facebook.com/sbsutd.official">FACEBOOK</a>
+                <a href="sbsutd.official@gmail.com">EMAIL</a>
+                <button class="updates-btn">GET UPDATES</button>
+            </div>
+        </nav>
+
+        <div class="slideshow-container">
+            <img src="images/bg1.jpg" alt="Background 1">
+            <img src="images/bg2.jpg" alt="Background 2">
+            <img src="images/bg3.jpg" alt="Background 3">
+        </div>
+
+        <div class="hero-section">
+            <div class="logo-container">
+                <img src="SBS_logo.png" alt="Tiger Logo">
+            </div>
+            <div class="text-content">
+                <h1>Sommiloni of Bengali Students</h1>
+                <h2>The University of Texas | Dallas, TX</h2>
+                <div class="description">
+                    <p>Welcome to the official page of Sommiloni of Bengali Students. We are a vibrant student organization at the University of Texas at Dallas, representing the Bengali community from South East Asia.</p>
+                    <p>Our mission is to foster community support, celebrate our rich culture and traditions, and share our heritage with the diverse UTD community in the most authentic way.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="photo-albums">
+            <div class="album" onclick="openSlideshow(0)">
+                <div class="album-cover">
+                    <img src="images/pb23/cover.jpg" alt="Poila Boishak 2023">
+                    <span class="album-title">Poila Boishak 2023</span>
+                </div>
+            </div>
+            <div class="album" onclick="openSlideshow(1)">
+                <div class="album-cover">
+                    <img src="images/pb24/cover.jpg" alt="Poila Boishak 2024">
+                    <span class="album-title">Poila Boishak 2024</span>
+                </div>
+            </div>
+            <div class="album" onclick="openSlideshow(2)">
+                <div class="album-cover">
+                    <img src="images/sp24/cover.jpg" alt="Saraswati Puja 2024">
+                    <span class="album-title">Saraswati Puja 2024</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="slideshow-modal">
+            <span class="close-btn" onclick="closeSlideshow()">&times;</span>
+            <button class="nav-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="nav-btn next" onclick="changeSlide(1)">&#10095;</button>
+            <div class="modal-content">
+                <img src="" alt="Slideshow Image">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
