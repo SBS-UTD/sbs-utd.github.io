@@ -293,4 +293,11 @@ body {
         gap: 15px;
     }
 }
+.terms-banner a {
+    color: #2BA89A;
+    text-decoration: underline;
+}
 
+.terms-banner a:hover {
+    color: #ffffff;
+}
