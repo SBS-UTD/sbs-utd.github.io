@@ -293,6 +293,18 @@ body {
         gap: 15px;
     }
 }
+.terms-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    z-index: 1000;
+}
+
 .terms-banner a {
     color: #2BA89A;
     text-decoration: underline;
@@ -301,3 +313,4 @@ body {
 .terms-banner a:hover {
     color: #ffffff;
 }
+
