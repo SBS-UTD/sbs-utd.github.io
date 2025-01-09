@@ -293,7 +293,7 @@ body {
         gap: 15px;
     }
 }
-.terms-banner {
+/*.terms-banner {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -313,4 +313,4 @@ body {
 .terms-banner a:hover {
     color: #ffffff;
 }
-
+*/
